@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9113F8082AC2CF2E009F979B /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5130415247422AB0023D0CF /* ShortcutRecorder.framework */; };
+		9113F8092AC2CF34009F979B /* Highlightr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5114FD7248214F6001A8DB5 /* Highlightr.framework */; };
+		9113F80A2AC2CF3E009F979B /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5130440247586FF0023D0CF /* ServiceManagement.framework */; };
+		9113F80B2AC2CF3E009F979B /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5130440247586FF0023D0CF /* ServiceManagement.framework */; };
+		9113F80C2AC2CF3F009F979B /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5130440247586FF0023D0CF /* ServiceManagement.framework */; };
+		9113F80D2AC2CF3F009F979B /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5130440247586FF0023D0CF /* ServiceManagement.framework */; };
+		9113F80E2AC2CF40009F979B /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5130440247586FF0023D0CF /* ServiceManagement.framework */; };
+		9113F80F2AC2CF43009F979B /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5893A05247C106A00D025FE /* Sparkle.framework */; };
+		9113F8102AC2CF43009F979B /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5893A05247C106A00D025FE /* Sparkle.framework */; };
+		9113F8122AC2CF44009F979B /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5893A05247C106A00D025FE /* Sparkle.framework */; };
+		9113F8132AC2CF45009F979B /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5893A05247C106A00D025FE /* Sparkle.framework */; };
+		9113F8142AC2CF48009F979B /* DiffMatchPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A500D6BB252B795E00308FC6 /* DiffMatchPatch.framework */; };
 		91B0CA4A2AC2C07100600D9A /* DiffMatchPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A500D6BB252B795E00308FC6 /* DiffMatchPatch.framework */; };
 		91B0CA4B2AC2C07100600D9A /* DiffMatchPatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A500D6BB252B795E00308FC6 /* DiffMatchPatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		91B0CA502AC2C0D700600D9A /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5130415247422AB0023D0CF /* ShortcutRecorder.framework */; };
@@ -714,6 +726,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9113F80B2AC2CF3E009F979B /* ServiceManagement.framework in Frameworks */,
+				9113F8092AC2CF34009F979B /* Highlightr.framework in Frameworks */,
+				9113F8082AC2CF2E009F979B /* ShortcutRecorder.framework in Frameworks */,
+				9113F8102AC2CF43009F979B /* Sparkle.framework in Frameworks */,
+				9113F8142AC2CF48009F979B /* DiffMatchPatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,6 +744,7 @@
 				A5D4A39C24838E37008ECAE9 /* SwiftJWT in Frameworks */,
 				A500D6BD252B797400308FC6 /* DiffMatchPatch.framework in Frameworks */,
 				A547EBC6258DB1A30020C827 /* BigInt in Frameworks */,
+				9113F80D2AC2CF3F009F979B /* ServiceManagement.framework in Frameworks */,
 				A5114FDA24821504001A8DB5 /* Highlightr.framework in Frameworks */,
 				A59FBE7324362CE100C5C9BF /* HotKey in Frameworks */,
 				A5893A07247C106A00D025FE /* Sparkle.framework in Frameworks */,
@@ -739,6 +757,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				91B0CA522AC2C0E300600D9A /* Highlightr.framework in Frameworks */,
+				9113F80E2AC2CF40009F979B /* ServiceManagement.framework in Frameworks */,
+				9113F80F2AC2CF43009F979B /* Sparkle.framework in Frameworks */,
 				91B0CA502AC2C0D700600D9A /* ShortcutRecorder.framework in Frameworks */,
 				91B0CA4A2AC2C07100600D9A /* DiffMatchPatch.framework in Frameworks */,
 			);
@@ -748,6 +768,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9113F8132AC2CF45009F979B /* Sparkle.framework in Frameworks */,
 				A5D736072555802A00F3C28D /* ShortcutRecorder.framework in Frameworks */,
 				A5D736082555802A00F3C28D /* SwiftDate in Frameworks */,
 				A5D736092555802A00F3C28D /* HTMLEntities in Frameworks */,
@@ -755,6 +776,7 @@
 				A5D7360A2555802A00F3C28D /* SwiftJWT in Frameworks */,
 				A5D7360B2555802A00F3C28D /* DiffMatchPatch.framework in Frameworks */,
 				A5D7360C2555802A00F3C28D /* Highlightr.framework in Frameworks */,
+				9113F80A2AC2CF3E009F979B /* ServiceManagement.framework in Frameworks */,
 				A5D7360D2555802A00F3C28D /* HotKey in Frameworks */,
 				A5D7360F2555802A00F3C28D /* SwiftyBeaver in Frameworks */,
 			);
@@ -764,6 +786,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9113F8122AC2CF44009F979B /* Sparkle.framework in Frameworks */,
 				A5D7369125565D1E00F3C28D /* ShortcutRecorder.framework in Frameworks */,
 				A5D7369225565D1E00F3C28D /* SwiftDate in Frameworks */,
 				A5D7369325565D1E00F3C28D /* HTMLEntities in Frameworks */,
@@ -771,6 +794,7 @@
 				A5D7369425565D1E00F3C28D /* SwiftJWT in Frameworks */,
 				A5D7369525565D1E00F3C28D /* DiffMatchPatch.framework in Frameworks */,
 				A5D7369625565D1E00F3C28D /* Highlightr.framework in Frameworks */,
+				9113F80C2AC2CF3F009F979B /* ServiceManagement.framework in Frameworks */,
 				A5D7369725565D1E00F3C28D /* HotKey in Frameworks */,
 				A5D7369925565D1E00F3C28D /* SwiftyBeaver in Frameworks */,
 			);
@@ -1962,6 +1986,11 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = KCQJ4LUNM7;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LauncherApplicationTINO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1989,6 +2018,11 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = KCQJ4LUNM7;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LauncherApplicationTINO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2060,7 +2094,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.6.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -2123,10 +2157,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.6.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
